@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -22,7 +23,10 @@
     <ul>
         @foreach ($students as $student)
             <li>
-                {{ $student->student_id }} , {{ $student->name }} , {{ $student->address }}
+                {{ $student->student_id }},
+                {{ $student->name }},
+                {{ $student->address }},
+                {{ $student->contact_no }}
 
                 <a href="{{ route('students.edit', $student) }}">
                     Edit

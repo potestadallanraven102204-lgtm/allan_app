@@ -1,3 +1,4 @@
+
 <?php
 
 use App\Http\Controllers\StudentController;
@@ -23,4 +24,4 @@ Route::delete('/students/{student}', [StudentController::class, 'destroy'])
 
 Route::get('/', function () {
     return view('welcome');
-}); 
+});

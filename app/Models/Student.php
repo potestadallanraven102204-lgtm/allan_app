@@ -1,3 +1,4 @@
+
 <?php
 
 namespace App\Models;
@@ -13,5 +14,6 @@ class Student extends Model
         'student_id',
         'name',
         'address',
+        'contact_no',
     ];
 }
